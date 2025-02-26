@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family_WindSong:wght@400;500&display=swap');
+
+header {
+    background-color: #a6401b;
+    padding: 40px; 
+    margin-top: 0px;
+    line-height: 75%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    list-style-type: none;
+    padding: 20px;
+    margin: 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo, .Soups, .Meals, .MeetNana {
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+}
+
+.Logo {
+    grid-column: 1;
+}
+
+.Soups {
+    grid-column: 2;
+}
+
+.Meals {
+    grid-column: 3;
+}   
+
+.MeetNana {
+    grid-column: 4;
+}   
+
+body {
+    background-color: #ebceab;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+}
+
+h1 {
+    frontfamily: 'WindSong', cursive;
+    text-align: center;
+    font-size: 50px;
+    color: #ffbe4d;
+    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    background-color: #a6401b;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-top: auto;
+}
