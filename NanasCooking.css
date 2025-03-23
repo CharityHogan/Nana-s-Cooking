@@ -60,9 +60,6 @@ h1 {
 }
 
 .familyphoto {
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row: 3;
 }
 
 main {
