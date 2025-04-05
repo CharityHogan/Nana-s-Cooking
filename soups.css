@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=WindSong:wght@400;500&display=swap');
 
 * {
     box-sizing: border-box;
@@ -52,10 +52,14 @@ main {
 }
 
 h1 {
+    font-family: 'quintessential', cursive;
+    font-size: 50px;
     text-align: center;
     margin-bottom: 40px;
     font-size: 2.5rem;
     letter-spacing: 2px;
+    color: #ffbe4d;
+text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
 }
 
 .soup-cards {
