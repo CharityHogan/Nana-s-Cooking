@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff0de;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #a6401b;
+    padding: 20px 40px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+nav a {
+
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: 400;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    flex: 1;
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+.soup-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.soup-card {
+    display: flex;
+    background-color: #1f1f1f;
+    border: 1px solid #333;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.soup-card img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 6px;
+}
+
+.soup-info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.soup-info p {
+    margin: 5px 0;
+}
+
+.soup-info ul {
+    margin-top: 10px;
+    padding-left: 20px;
+    list-style-type: decimal;
+}
+
+footer {
+    background-color: #a6401b;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}

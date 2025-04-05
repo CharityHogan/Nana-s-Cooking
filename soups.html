@@ -1,47 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Nana's Cooking</title>
-    <link rel="stylesheet" href="NanasCooking.css">
+    <link rel="stylesheet" href="soups.css" />
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="nav-container">
             <a href="NanasCooking.html" class="logo">Image of Nana</a>
-            <a href="soups.html" class="Soups">Soups</a>
-            <a href="" class="Meals">Meals</a>
-            <a href="" class="MeetNana">Meet Nana</a>
+            <nav>
+                <a href="soups.html">soups</a>
+                <a href="#">meals</a>
+                <a href="#">desserts</a>
+                <a href="#">about nana</a>
+            </nav>
         </div>
     </header>
-    <div>
-        <h1>Soups</h1>
-    </div>
-    <div>
-        <h2>Sopa de Estrellas</h2>
-        <p>Ingredients:</p>
-        <div>
-        <p>1 cup chopped celery</p>
-        <p>1 cup chopped onion</p>
-        <p>1 bag of star noodles</p>
-        <p>2 tbs oil</p>
-        <p>8 oz can of tomato sauce</p>
-        <p>2 heaping tbs of chicken knorr</p>
-        </div>
-        <div>
-        <p>Instructions:</p>
-        <p>1. in a pan, heat up the oil to medium heat. in a pot, fill the pot up with water and tomato sauce. boil the mixture.</p>
-        <p>2. prepare the celery and onion</p>
-        <p>3. add the celery and onion to the pan and cook until onion is clear</p>
-        <p>4. add in star noodles and stir until golden brown</p>
-        <p>5. transfer the noodles, onions, and celery to the pot. add a generous amount of chicken knorr to the soup.</p>
-        <p>6. let the soup boil for 10 minutes and check the noodles periodically</p>
-        <p>7. once the noodles are cooked, take pot off of heat and serve</p>
-        </div>
-    </div>
+
+    <main>
+        <h1>SOUPS</h1>
+
+        <section class="soup-cards">
+            <!-- Soup Card 1 -->
+            <div class="soup-card">
+                <img src="photos/sopa-de-estrellitas.jpg" alt="sopa" />
+                <div class="soup-info">
+                    <h2>Sopa de Estreallitas</h2>
+                    <p><strong>Meal time: 40min</strong></p>
+                    <p><strong>Serving size: 8</strong></p>
+                    <p><strong>Ingredients needed:</strong></p>
+                    <ul>
+                        <li>1 cup chopped celery</li>
+                        <li>1 cup chopped onion</li>
+                        <li>1 bag of star noodles</li>
+                        <li>2 tbs oil</li>
+                        <li>8 oz can of tomato sauce</li>
+                        <li>2 heaping tbs of chicken knorr</li>
+                    </ul>
+                    <p><strong>Instructions:</strong></p>
+                    <ul>
+                        <li>1. in a pan, heat up the oil to medium heat. in a pot, fill the pot up with water and tomato sauce. boil the mixture.</li>
+                        <li>2. prepare the celery and onion</li>
+                        <li>3. add the celery and onion to the pan and cook until onion is clear</li>
+                        <li>4. add in star noodles and stir until golden brown</li>
+                        <li>5. transfer the noodles, onions, and celery to the pot. add a generous amount of chicken knorr to the soup</li>
+                        <li>6. let the soup boil for 10 minutes and check the noodles periodically</li>
+                        <li>7. once the noodles are cooked, take pot off of heat and serve</li>
+                      
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Duplicate above card for more soups -->
+        </section>
+    </main>
+
     <footer>
-        <p>Made by Yollie and Charity Hogan &copy</p>
+        <p>Made by Yollie and Charity Hogan &copy;</p>
     </footer>
 </body>
 </html>
