@@ -70,7 +70,7 @@ text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1p
 
 .soup-card {
     display: flex;
-    background-color: #1f1f1f;
+    background-color: #ffffff;
     border: 1px solid #333;
     padding: 20px;
     border-radius: 8px;
