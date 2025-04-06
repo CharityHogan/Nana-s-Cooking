@@ -93,6 +93,14 @@ text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1p
     border-radius: 6px;
 }
 
+.soup-info p {
+    color: black;
+}
+.soup-info ul {
+    color: black;
+}
+
+
 .soup-info h2 {
     font-size: 1.5rem;
     margin-bottom: 10px;
