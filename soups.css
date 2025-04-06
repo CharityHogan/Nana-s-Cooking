@@ -6,6 +6,15 @@
     padding: 0;
 }
 
+.logo {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #e2b9a1; /* optional: add a soft border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* optional: subtle shadow */
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #fff0de;
